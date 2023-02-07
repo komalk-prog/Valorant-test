@@ -1,0 +1,31 @@
+.map-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(94, 11, 11);
+  text-transform: uppercase;
+  text-decoration: solid;
+  background-color: blanchedalmond;
+}
+
+#root {
+  height: 80vh;
+  width: 100vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mapCard {
+  padding: 10px;
+  background-color: pink;
+  height: 30%;
+  width: 30%;
+  margin: 10px 10px;
+  text-align: center;
+}
+.mapImage {
+  height: 40%;
+  width: 50%;
+}
